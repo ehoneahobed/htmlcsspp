@@ -17,6 +17,10 @@
     
 }
 
+.btn:hover {
+    opacity: 0.8;
+}
+
 header {
     height: 12vh;
     display: flex;
