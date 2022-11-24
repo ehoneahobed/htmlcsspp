@@ -20,17 +20,20 @@
 header {
     height: 12vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 80vw;
-    margin: 0.25rem auto;
+    height: 20%;
+    margin: 0.5rem auto 2rem auto;
     overflow: hidden;
 }
 
 
 nav ul {
     display: flex;
-    gap: 1.8rem;
+    gap: 2.8rem;
+    font-size: 1.3rem;
 }
 
 nav ul li a {
@@ -85,6 +88,11 @@ nav ul li a {
     color: white;
     margin-bottom: 4rem;
 }
+
+.about-us .right-about {
+    text-align: center;
+}
+
 
 .services-offered {
     width: 80vw;
@@ -158,14 +166,6 @@ footer img {
 }
 
 @media only screen and (max-width: 820px) {
-    header {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 2rem;
-        height: 20%;
-    }
-
     nav ul {
         gap: 1.0rem;
         font-size: 1.0rem;
@@ -188,6 +188,10 @@ footer img {
 
     .about-us .right-about {
         margin-top: 2rem;
+    }
+
+    .about-us img {
+        width: 100%;
     }
 
     .services-offered .services-section{
